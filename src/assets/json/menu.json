@@ -1,0 +1,27 @@
+{
+    "data": {
+        "menu": [
+            {
+                "id": 1,
+                "parentId": 0,
+                "name": "系統總覽",
+                "url": "/home",
+                "subMenu": []
+            },
+            {
+                "id": 2,
+                "parentId": 0,
+                "name": "書目列表",
+                "url": "/bookList",
+                "subMenu": []
+            },
+            {
+                "id": 3,
+                "parentId": 0,
+                "name": "閱讀統計",
+                "url": "/statistics",
+                "subMenu": []
+            }
+        ]
+    }
+}
