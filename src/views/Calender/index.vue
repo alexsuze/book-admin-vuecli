@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div>閱讀統計</div>
+    <div>活動日曆</div>
 </template>
 
 <style scoped lang="scss"></style>

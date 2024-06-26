@@ -21,6 +21,13 @@
                 "name": "閱讀統計",
                 "url": "/statistics",
                 "subMenu": []
+            },
+            {
+                "id": 4,
+                "parentId": 0,
+                "name": "活動日曆",
+                "url": "/calender",
+                "subMenu": []
             }
         ]
     }

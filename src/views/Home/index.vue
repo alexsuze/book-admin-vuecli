@@ -4,7 +4,7 @@
 
 <template>
     <div class="frontpage">
-        123123123
+        系統總覽
     </div>
 </template>
 

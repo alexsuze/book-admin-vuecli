@@ -28,6 +28,11 @@ const routes = [
         component: () => import('@/views/Statistics/index.vue'),
         meta: { title: '閱讀統計' }
       },
+      {
+        path: '/calender',
+        component: () => import('@/views/Calender/index.vue'),
+        meta: { title: '活動日曆' }
+      },
     ]
   }
 
