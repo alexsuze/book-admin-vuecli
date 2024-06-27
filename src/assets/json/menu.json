@@ -6,6 +6,7 @@
                 "parentId": 0,
                 "name": "系統總覽",
                 "url": "/home",
+                "image": "../assets/images/icons/house-solid.svg",
                 "subMenu": []
             },
             {
@@ -13,6 +14,7 @@
                 "parentId": 0,
                 "name": "書目列表",
                 "url": "/bookList",
+                "image": "@/assets/images/icons/house-solid.svg",
                 "subMenu": []
             },
             {
@@ -20,6 +22,7 @@
                 "parentId": 0,
                 "name": "閱讀統計",
                 "url": "/statistics",
+                "image": "@/assets/images/icons/house-solid.svg",
                 "subMenu": []
             },
             {
@@ -27,6 +30,7 @@
                 "parentId": 0,
                 "name": "活動日曆",
                 "url": "/calender",
+                "image": "@/assets/images/icons/house-solid.svg",
                 "subMenu": []
             }
         ]

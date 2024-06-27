@@ -25,9 +25,12 @@ onMounted(() => {
 
 <template>
     <div class="side_bar container-fluid">
-        <div class="mt-3 mb-3" style="cursor: pointer;" v-for="list in menuData.data.menu" :key="list.id"
-            @click="goView(list.url)">{{ list.name
-            }}</div>
+        <div class="row">
+            <div class="menu mt-3 mb-3 col-12" v-for="(list, index) in menuData.data.menu" :key="list.id"
+                @click="goView(list.url)">{{ list.name }}
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -39,5 +42,18 @@ onMounted(() => {
     font-size: 28px;
     color: #FFFFFF;
     padding-top: 100px;
+}
+
+.menu {
+    cursor: pointer;
+
+    &:hover {
+        color: #6b9bde;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
 }
 </style>

@@ -1,10 +1,11 @@
 <script setup>
 import SideBar from '@/components/sideBar.vue';
 import Header from '@/components/header.vue';
+
 </script>
 
 <template>
-  <div class="home container-fluid">
+  <div class="container-fluid home g-0">
     <div class="row g-0">
       <div class="col-2">
         <SideBar></SideBar>
