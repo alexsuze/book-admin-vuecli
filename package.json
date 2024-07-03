@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "clean": "rimraf - rf dist/*"
+    "clean": "rimraf - rf dist/* --dest dist"
   },
   "dependencies": {
     "@flavorly/vanilla-components": "^0.7.65",
