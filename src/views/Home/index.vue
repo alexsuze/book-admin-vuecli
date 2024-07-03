@@ -52,22 +52,41 @@ onMounted(() => {
                 <div class="info_box me-2">
                     <h4 class="mt-2">近期閱讀時數</h4>
                     <div class="chart_box">
-                        <canvas id="readedChart" width="95%" height="250"></canvas>
+                        <canvas id="readedChart"></canvas>
                     </div>
                 </div>
             </div>
             <div class="col-6">
-                <div class="info_box">
+                <div class="info_box me-2">
                     <h4 class="mt-2">近期閱讀書籍</h4>
+                    <div class="d-flex justify-content-center row mt-4">
+                        <div class="col-4 book_box">
+                            <img src="@/assets/images/book_1.jpg" alt="" srcset="">
+                        </div>
+                        <div class="col-4 book_box">
+                            <img src="@/assets/images/book_2.webp" alt="" srcset="">
+                        </div>
+                        <div class="col-4 book_box">
+                            <img src="@/assets/images/book_3.jpg" alt="" srcset="">
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="row mt-4">
+        <!-- <div class="row mt-4">
             <div class="col-6">
                 <div class="info_box me-2">
                     <h4 class="mt-2">本月累計時數</h4>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <h5>本月時數</h5>
+                        </div>
+                        <div class="col-6">
+                            <h5>上月時數</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -76,13 +95,32 @@ onMounted(() => {
                     <h4 class="mt-2">近期購買書籍</h4>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
 <style scoped lang="scss">
+.chart_box {
+    width: 95%;
+    height: 250px;
+    margin: 0 auto;
+
+    canvas {
+        width: 90%;
+    }
+}
+
 .info_box {
     border: 1px solid rgba($color: #8c8c8c, $alpha: 0.4);
     box-shadow: 0 2px 2px rgba($color: #999999, $alpha: 0.4);
+    height: 300px;
+}
+
+.book_box {
+    width: 25%;
+
+    img {
+        width: 100%;
+    }
 }
 </style>
