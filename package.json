@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "rimraf -rf dist/* vue-cli-service build --mode production --dest dist --no-clean"
+    "build": "vue-cli-service build",
+    "clean": "rimraf - rf dist/*"
   },
   "dependencies": {
     "@flavorly/vanilla-components": "^0.7.65",
