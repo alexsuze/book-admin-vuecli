@@ -18,9 +18,12 @@ const goPage = (idx) => {
 
     }
 }
+
+
 onMounted(() => {
     init();
 })
+
 </script>
 
 <template>
@@ -68,9 +71,11 @@ onMounted(() => {
 
         .toggle_con {
             width: 200px;
+            background-color: #FFFFFF;
             border: 1px solid rgba($color: #8c8c8c, $alpha: 0.4);
             box-shadow: 0 2px 2px rgba($color: #999999, $alpha: 0.4);
             text-align: center;
+            z-index: 99;
 
             div {
                 cursor: pointer;

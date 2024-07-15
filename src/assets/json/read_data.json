@@ -1,0 +1,734 @@
+{
+    "data": [
+        {
+            "_id": {
+                "$oid": "668fa8142e1ca69175a03935"
+            },
+            "year": 2018,
+            "month": 6,
+            "day": 16,
+            "readTime": 5,
+            "date": "2018-06-16"
+        },
+        {
+            "_id": {
+                "$oid": "668fa9c22e1ca69175a03936"
+            },
+            "year": 2018,
+            "month": 7,
+            "day": 30,
+            "readTime": 93,
+            "date": "2018-07-30"
+        },
+        {
+            "_id": {
+                "$oid": "668faa252e1ca69175a03937"
+            },
+            "year": 2018,
+            "month": 7,
+            "day": 31,
+            "readTime": 48,
+            "date": "2018-07-31"
+        },
+        {
+            "_id": {
+                "$oid": "668faba5f7471c58dc0c4623"
+            },
+            "year": 2018,
+            "month": 8,
+            "day": 7,
+            "readTime": 36,
+            "date": "2018-08-07"
+        },
+        {
+            "_id": {
+                "$oid": "668fabbef7471c58dc0c4624"
+            },
+            "year": 2018,
+            "month": 8,
+            "day": 21,
+            "readTime": 6,
+            "date": "2018-08-21"
+        },
+        {
+            "_id": {
+                "$oid": "668faddbf7471c58dc0c4627"
+            },
+            "year": 2019,
+            "month": 7,
+            "day": 21,
+            "readTime": 20,
+            "date": "2019-07-21"
+        },
+        {
+            "_id": {
+                "$oid": "668fadeff7471c58dc0c4628"
+            },
+            "year": 2019,
+            "month": 7,
+            "day": 30,
+            "readTime": 5,
+            "date": "2019-07-30"
+        },
+        {
+            "_id": {
+                "$oid": "668fd9cf81a3f17d943730d9"
+            },
+            "year": 2019,
+            "month": 8,
+            "day": 3,
+            "readTime": 5,
+            "date": "2019-08-03"
+        },
+        {
+            "_id": {
+                "$oid": "668fda2181a3f17d943730da"
+            },
+            "year": 2020,
+            "month": 10,
+            "day": 10,
+            "readTime": 236,
+            "date": "2020-10-10"
+        },
+        {
+            "_id": {
+                "$oid": "668fda2f81a3f17d943730db"
+            },
+            "year": 2020,
+            "month": 10,
+            "day": 11,
+            "readTime": 83,
+            "date": "2020-10-11"
+        },
+        {
+            "_id": {
+                "$oid": "668fda3e81a3f17d943730dc"
+            },
+            "year": 2020,
+            "month": 10,
+            "day": 18,
+            "readTime": 269,
+            "date": "2020-10-18"
+        },
+        {
+            "_id": {
+                "$oid": "668fda4d81a3f17d943730dd"
+            },
+            "year": 2020,
+            "month": 10,
+            "day": 19,
+            "readTime": 29,
+            "date": "2020-10-19"
+        },
+        {
+            "_id": {
+                "$oid": "668fda9a81a3f17d943730de"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 12,
+            "readTime": 16,
+            "date": "2021-11-12"
+        },
+        {
+            "_id": {
+                "$oid": "668fdaab81a3f17d943730df"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 13,
+            "readTime": 51,
+            "date": "2021-11-13"
+        },
+        {
+            "_id": {
+                "$oid": "668fdaba81a3f17d943730e0"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 15,
+            "readTime": 36,
+            "date": "2021-11-15"
+        },
+        {
+            "_id": {
+                "$oid": "668fdaca81a3f17d943730e1"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 16,
+            "readTime": 12,
+            "date": "2021-11-16"
+        },
+        {
+            "_id": {
+                "$oid": "668fdad881a3f17d943730e2"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 17,
+            "readTime": 41,
+            "date": "2021-11-17"
+        },
+        {
+            "_id": {
+                "$oid": "668fdae781a3f17d943730e3"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 18,
+            "readTime": 18,
+            "date": "2021-11-18"
+        },
+        {
+            "_id": {
+                "$oid": "668fdaf781a3f17d943730e4"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 19,
+            "readTime": 33,
+            "date": "2021-11-19"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb0481a3f17d943730e5"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 20,
+            "readTime": 55,
+            "date": "2021-11-20"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb0f81a3f17d943730e6"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 21,
+            "readTime": 39,
+            "date": "2021-11-21"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb1b81a3f17d943730e7"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 22,
+            "readTime": 41,
+            "date": "2021-11-22"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb2781a3f17d943730e8"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 24,
+            "readTime": 20,
+            "date": "2021-11-24"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb3181a3f17d943730e9"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 25,
+            "readTime": 50,
+            "date": "2021-11-25"
+        },
+        {
+            "_id": {
+                "$oid": "668fdb3d81a3f17d943730ea"
+            },
+            "year": 2021,
+            "month": 11,
+            "day": 26,
+            "readTime": 16,
+            "date": "2021-11-26"
+        },
+        {
+            "_id": {
+                "$oid": "66908e4c303a6600985bd91c"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 6,
+            "readTime": 5,
+            "date": "2021-12-06"
+        },
+        {
+            "_id": {
+                "$oid": "66908e5b303a6600985bd91d"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 7,
+            "readTime": 6,
+            "date": "2021-12-07"
+        },
+        {
+            "_id": {
+                "$oid": "66908e76303a6600985bd91e"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 22,
+            "readTime": 11,
+            "date": "2021-12-22"
+        },
+        {
+            "_id": {
+                "$oid": "66908e8c303a6600985bd91f"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 23,
+            "readTime": 19,
+            "date": "2021-12-23"
+        },
+        {
+            "_id": {
+                "$oid": "66908e98303a6600985bd920"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 24,
+            "readTime": 14,
+            "date": "2021-12-24"
+        },
+        {
+            "_id": {
+                "$oid": "66908ea6303a6600985bd921"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 26,
+            "readTime": 10,
+            "date": "2021-12-26"
+        },
+        {
+            "_id": {
+                "$oid": "66908eb4303a6600985bd922"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 27,
+            "readTime": 44,
+            "date": "2021-12-27"
+        },
+        {
+            "_id": {
+                "$oid": "66908ec3303a6600985bd923"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 28,
+            "readTime": 51,
+            "date": "2021-12-28"
+        },
+        {
+            "_id": {
+                "$oid": "66908ed3303a6600985bd924"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 29,
+            "readTime": 88,
+            "date": "2021-12-29"
+        },
+        {
+            "_id": {
+                "$oid": "66908ee9303a6600985bd925"
+            },
+            "year": 2021,
+            "month": 12,
+            "day": 30,
+            "readTime": 5,
+            "date": "2021-12-30"
+        },
+        {
+            "_id": {
+                "$oid": "6690ea61303a6600985bd95f"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 6,
+            "readTime": 40,
+            "date": "2022-01-06"
+        },
+        {
+            "_id": {
+                "$oid": "6690ea75303a6600985bd960"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 8,
+            "readTime": 8,
+            "date": "2022-01-08"
+        },
+        {
+            "_id": {
+                "$oid": "6690ea98303a6600985bd961"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 9,
+            "readTime": 26,
+            "date": "2022-01-09"
+        },
+        {
+            "_id": {
+                "$oid": "6690eac1303a6600985bd962"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 10,
+            "readTime": 35,
+            "date": "2022-01-10"
+        },
+        {
+            "_id": {
+                "$oid": "6690ead9303a6600985bd963"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 20,
+            "readTime": 21,
+            "date": "2022-01-20"
+        },
+        {
+            "_id": {
+                "$oid": "6690eafb303a6600985bd964"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 24,
+            "readTime": 25,
+            "date": "2022-01-24"
+        },
+        {
+            "_id": {
+                "$oid": "6690eb12303a6600985bd965"
+            },
+            "year": 2022,
+            "month": 1,
+            "day": 26,
+            "readTime": 13,
+            "date": "2022-01-26"
+        },
+        {
+            "_id": {
+                "$oid": "6690ebb8303a6600985bd966"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 2,
+            "readTime": 13,
+            "date": "2022-02-02"
+        },
+        {
+            "_id": {
+                "$oid": "6690ebcf303a6600985bd967"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 4,
+            "readTime": 24,
+            "date": "2022-02-04"
+        },
+        {
+            "_id": {
+                "$oid": "6690ebea303a6600985bd968"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 5,
+            "readTime": 18,
+            "date": "2022-02-05"
+        },
+        {
+            "_id": {
+                "$oid": "6690ebff303a6600985bd969"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 6,
+            "readTime": 10,
+            "date": "2022-02-06"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec11303a6600985bd96a"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 7,
+            "readTime": 24,
+            "date": "2022-02-07"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec26303a6600985bd96b"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 8,
+            "readTime": 48,
+            "date": "2022-02-08"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec39303a6600985bd96c"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 9,
+            "readTime": 58,
+            "date": "2022-02-09"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec4c303a6600985bd96d"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 10,
+            "readTime": 57,
+            "date": "2022-02-10"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec69303a6600985bd96e"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 11,
+            "readTime": 51,
+            "date": "2022-02-11"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec7f303a6600985bd96f"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 12,
+            "readTime": 69,
+            "date": "2022-02-12"
+        },
+        {
+            "_id": {
+                "$oid": "6690ec92303a6600985bd970"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 13,
+            "readTime": 3,
+            "date": "2022-02-13"
+        },
+        {
+            "_id": {
+                "$oid": "6690eca7303a6600985bd971"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 16,
+            "readTime": 11,
+            "date": "2022-02-16"
+        },
+        {
+            "_id": {
+                "$oid": "6690ecba303a6600985bd972"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 17,
+            "readTime": 65,
+            "date": "2022-02-17"
+        },
+        {
+            "_id": {
+                "$oid": "6690ecce303a6600985bd973"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 18,
+            "readTime": 12,
+            "date": "2022-02-18"
+        },
+        {
+            "_id": {
+                "$oid": "6690ece5303a6600985bd974"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 19,
+            "readTime": 33,
+            "date": "2022-02-19"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed09303a6600985bd975"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 20,
+            "readTime": 14,
+            "date": "2022-02-20"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed20303a6600985bd976"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 21,
+            "readTime": 17,
+            "date": "2022-02-21"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed34303a6600985bd977"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 22,
+            "readTime": 26,
+            "date": "2022-02-22"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed4a303a6600985bd978"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 23,
+            "readTime": 20,
+            "date": "2022-02-23"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed5d303a6600985bd979"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 24,
+            "readTime": 43,
+            "date": "2022-02-24"
+        },
+        {
+            "_id": {
+                "$oid": "6690ed80303a6600985bd97a"
+            },
+            "year": 2022,
+            "month": 2,
+            "day": 25,
+            "readTime": 15,
+            "date": "2022-02-25"
+        },
+        {
+            "_id": {
+                "$oid": "66949d9f420fa478511de5fb"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 1,
+            "readTime": 31,
+            "date": "2022-03-01"
+        },
+        {
+            "_id": {
+                "$oid": "66949db0420fa478511de5fc"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 2,
+            "readTime": 23,
+            "date": "2022-03-02"
+        },
+        {
+            "_id": {
+                "$oid": "66949dbf420fa478511de5fd"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 3,
+            "readTime": 54,
+            "date": "2022-03-03"
+        },
+        {
+            "_id": {
+                "$oid": "66949dce420fa478511de5fe"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 4,
+            "readTime": 34,
+            "date": "2022-03-04"
+        },
+        {
+            "_id": {
+                "$oid": "66949dde420fa478511de5ff"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 5,
+            "readTime": 14,
+            "date": "2022-03-05"
+        },
+        {
+            "_id": {
+                "$oid": "66949df1420fa478511de600"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 6,
+            "readTime": 4,
+            "date": "2022-03-06"
+        },
+        {
+            "_id": {
+                "$oid": "66949e0a420fa478511de601"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 7,
+            "readTime": 33,
+            "date": "2022-03-07"
+        },
+        {
+            "_id": {
+                "$oid": "66949e3a420fa478511de602"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 8,
+            "readTime": 36,
+            "date": "2022-03-08"
+        },
+        {
+            "_id": {
+                "$oid": "66949e47420fa478511de603"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 9,
+            "readTime": 72,
+            "date": "2022-03-09"
+        },
+        {
+            "_id": {
+                "$oid": "66949e56420fa478511de604"
+            },
+            "year": 2022,
+            "month": 3,
+            "day": 10,
+            "readTime": 66,
+            "date": "2022-03-10"
+        }
+    ]
+}

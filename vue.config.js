@@ -5,6 +5,7 @@ module.exports = defineConfig({
   assetsDir: 'static',
   transpileDependencies: true,
   filenameHashing: false,
+
   configureWebpack: {
 
     plugins: [

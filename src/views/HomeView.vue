@@ -1,7 +1,6 @@
 <script setup>
 import SideBar from '@/components/sideBar.vue';
 import Header from '@/components/header.vue';
-
 </script>
 
 <template>
@@ -22,5 +21,9 @@ import Header from '@/components/header.vue';
 <style lang="scss">
 .home {
   height: 100vh;
+}
+
+Header {
+  z-index: 99;
 }
 </style>

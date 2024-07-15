@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "_id": {
+                "$oid": "668caf33c0e48954760b9651"
+            },
+            "id": 1,
+            "name": "admin",
+            "auth": 1,
+            "pwd": "admin1234"
+        },
+        {
+            "_id": {
+                "$oid": "668cb17ae8915cb65792c2d3"
+            },
+            "id": 2,
+            "name": "client",
+            "auth": 2,
+            "pwd": "client1234"
+        }
+    ]
+}

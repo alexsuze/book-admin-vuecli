@@ -1,8 +1,31 @@
 <script setup>
+import user from '@/assets/json/user_data.json';
 const router = useRouter();
+const store = useStore();
+const loginData = reactive({
+    'name': '',
+    'pwd': ''
+})
+const userData = reactive({
+    "data": []
+})
 
 const login = () => {
-    router.push({ path: '/home' })
+    userData.data = user.data;
+    console.log(userData.data);
+    let count = 0;
+    userData.data.forEach(item => {
+        if (item.name == loginData.name && item.pwd == loginData.pwd) {
+            sessionStorage.setItem('user_auth', item.auth);
+            sessionStorage.setItem('login', true);
+            router.push({ path: '/home' })
+        } else {
+            count++;
+        }
+    })
+    if (count == userData.data.length) {
+        alert("查無該使用者，請確認帳號密碼是否正確")
+    }
 }
 </script>
 
@@ -16,11 +39,11 @@ const login = () => {
                 </div>
                 <div class="input_box">
                     <label for="">帳號：</label>
-                    <input type="text">
+                    <input type="text" v-model="loginData.name">
                 </div>
                 <div class="input_box">
                     <label for="">密碼：</label>
-                    <input type="password">
+                    <input type="password" v-model="loginData.pwd">
                 </div>
 
                 <button @click="login">登入</button>

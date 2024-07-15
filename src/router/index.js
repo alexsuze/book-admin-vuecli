@@ -4,12 +4,11 @@ import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router
 const routes = [
   {
     path: '/',
-    name: 'Login',
+    name: '登入頁面',
     component: () => import('@/views/LoginView.vue')
   },
   {
     path: '/home',
-    name: 'Home',
     component: () => import('@/views/HomeView.vue'),
     name: '系統總覽',
     meta: { title: '系統總覽' },

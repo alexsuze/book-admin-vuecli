@@ -1,6 +1,6 @@
 <script setup>
 import Chart from 'chart.js/auto';
-import current from '@/assets/json/currentRead.json';
+import readData from '@/assets/json/read_data.json'
 const chartObj = reactive({
     labels: [
         '06/01',
@@ -28,6 +28,22 @@ const listData = reactive({
 })
 const init = () => {
     const ctx = document.getElementById('readedChart');
+    chartObj.labels = [];
+    chartObj.datasets[0].data = []
+    let Arr = readData.data.slice(readData.data.length - 7, readData.data.length);
+    let labelArr = [];
+    let dataArr = [];
+
+    Arr.forEach(item => {
+        let str = item.date;
+        let num = item.readTime;
+        labelArr.push(str);
+        dataArr.push(num);
+    })
+
+    chartObj.labels = labelArr;
+    chartObj.datasets[0].data = dataArr;
+
     let chart = new Chart(ctx, {
         type: 'bar',
         data: chartObj,
@@ -36,8 +52,6 @@ const init = () => {
             maintainAspectRatio: false
         }
     })
-    listData.time = current.data.current;
-    console.log(listData.time);
 }
 
 onMounted(() => {
