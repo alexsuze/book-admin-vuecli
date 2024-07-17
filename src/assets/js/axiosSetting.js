@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const port = 8763;
+
 const setting = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'http://localhost:' + port + '/',
     withCredentials: true
 })
 

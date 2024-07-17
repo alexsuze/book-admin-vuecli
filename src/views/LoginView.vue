@@ -18,7 +18,7 @@ const login = () => {
         if (item.name == loginData.name && item.pwd == loginData.pwd) {
             sessionStorage.setItem('user_auth', item.auth);
             sessionStorage.setItem('login', true);
-            router.push({ path: '/home' })
+            router.push({ path: '/bookList' })
         } else {
             count++;
         }
@@ -39,11 +39,11 @@ const login = () => {
                 </div>
                 <div class="input_box">
                     <label for="">帳號：</label>
-                    <input type="text" v-model="loginData.name">
+                    <input type="text" v-model="loginData.name" @keyup.enter="login">
                 </div>
                 <div class="input_box">
                     <label for="">密碼：</label>
-                    <input type="password" v-model="loginData.pwd">
+                    <input type="password" v-model="loginData.pwd" @keyup.enter="login">
                 </div>
 
                 <button @click="login">登入</button>

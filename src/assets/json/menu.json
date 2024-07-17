@@ -4,33 +4,9 @@
             {
                 "id": 1,
                 "parentId": 0,
-                "name": "系統總覽",
-                "url": "/home",
-                "image": "house-solid.svg",
-                "subMenu": []
-            },
-            {
-                "id": 2,
-                "parentId": 0,
-                "name": "書目列表",
+                "name": "書目清單",
                 "url": "/bookList",
-                "image": "house-solid.svg",
-                "subMenu": []
-            },
-            {
-                "id": 3,
-                "parentId": 0,
-                "name": "閱讀統計",
-                "url": "/statistics",
-                "image": "house-solid.svg",
-                "subMenu": []
-            },
-            {
-                "id": 4,
-                "parentId": 0,
-                "name": "活動日曆",
-                "url": "/calender",
-                "image": "house-solid.svg",
+                "image": "../assets/images/icons/booklist.svg",
                 "subMenu": []
             }
         ]

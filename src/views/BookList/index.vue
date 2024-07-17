@@ -1,8 +1,19 @@
 <script setup>
+const emits = defineEmits(['titleName']);
+const route = useRoute();
+const router = useRouter();
 const pageData = reactive({
     'page': 1,
     'maxPage': 10,
     'dataNum': 13
+})
+
+const goDetail = () => {
+    router.push({ 'path': '/bookList-detail' });
+}
+
+onMounted(() => {
+    emits('titleName', route.meta.title);
 })
 </script>
 
@@ -53,7 +64,7 @@ const pageData = reactive({
                             <tr>
                                 <td>1</td>
                                 <td class="text-start ps-2">9991070629011</td>
-                                <td class="text-start ps-2">你的孩子不是你的孩子</td>
+                                <td class="link text-start ps-2" @click="goDetail()">你的孩子不是你的孩子</td>
                                 <td class="text-start ps-2">吳曉樂</td>
                                 <td class="text-start ps-2">網路與書</td>
                                 <td>2018/07/05</td>
@@ -62,7 +73,7 @@ const pageData = reactive({
                             <tr>
                                 <td>2</td>
                                 <td class="text-start ps-2">9789861372556</td>
-                                <td class="text-start ps-2">筆尖上的世界史：形塑民族、歷史和文明的故事力量</td>
+                                <td class="link text-start ps-2" @click="goDetail()">筆尖上的世界史：形塑民族、歷史和文明的故事力量</td>
                                 <td class="text-start ps-2">馬汀·普赫納</td>
                                 <td class="text-start ps-2">究竟出版</td>
                                 <td>2018/07/01</td>
@@ -110,6 +121,14 @@ const pageData = reactive({
             border: 1px solid #8c8c8c;
         }
 
+        .link {
+            color: #3A81E4;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
 
     }
 }

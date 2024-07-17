@@ -27,7 +27,6 @@ onMounted(() => {
         <div class="row">
             <div class="menu mt-3 mb-3 col-12" v-for="(list, index) in menuData.data.menu" :key="list.id"
                 @click="goView(list.url)">
-                <!-- <img src="@/assets/images/" alt=""> -->
                 {{ list.name }}
             </div>
         </div>

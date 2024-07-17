@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "clean": "rimraf - rf dist/* --dest dist"
+    "clean": "rimraf - rf dist/* --dest dist",
+    "local": "nodemon server"
   },
   "dependencies": {
     "@flavorly/vanilla-components": "^0.7.65",
@@ -23,6 +24,7 @@
     "mongodb": "^6.8.0",
     "v-calendar": "^3.1.2",
     "vue": "^3.2.13",
+    "vue-cli-plugin-express": "^1.0.2",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
